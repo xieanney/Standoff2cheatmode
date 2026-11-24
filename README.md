@@ -48,7 +48,7 @@
 пять, а не шесть.
 
 Перед коммитом выводы очищены в Colab: **Изменить → Очистить все выходные
-данные**. В JSON нет `outputs`, `execution_count` равен `null`.
+данные**. В JSON массивы `outputs` пустые, `execution_count` равен `null`.
 
 ## 4. Порядок работы
 
@@ -130,7 +130,7 @@ CONFLICT (add/add): Merge conflict in notebooks/05-outliers/Выбросы_ти�
 
 ## 7. История `main`
 
-История после слияния всех веток (до коммита с этим README):
+Фрагмент истории: все шесть слияний. Два следующих коммита правят только README.
 
 ```text
 *   55d89bd Merge branch 'roma/outliers'
@@ -163,7 +163,7 @@ CONFLICT (add/add): Merge conflict in notebooks/05-outliers/Выбросы_ти�
 - В `main` пять ноутбуков, без дублей и копий вида `(1)`.
 - Все шесть веток — предки `main`.
 
-## Ссылки
+## 9. Ссылки
 
 - Репозиторий: [github.com/xieanney/Standoff2cheatmode](https://github.com/xieanney/Standoff2cheatmode)
 - Рома: [@Xieanney](https://github.com/Xieanney)
